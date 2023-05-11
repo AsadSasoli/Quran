@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	background: #1F2125;
+	/* font-family: 'Nunito', sans-serif; */
+}
+/* Page-1 */
+.page-1{
+    width: 100vw;
+    height: auto;
+    background:#1F2125;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background: #343A40;
+	position: sticky;
+	top: 0px;
+	overflow: hidden;
+	z-index: 13;
+	animation: header 2s;
+}
+.header h3{
+	padding-left: 20px;
+	padding-top: 7px;
+	float: left;
+	color: aliceblue;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 900;
+	animation: logo 2s;
+}
+.lg{
+	color: darkslategrey;
+	font-size: 28px;
+}
+.header ul{
+	float: right;
+	margin-right: 20px;
+	animation: nav 2s;
+}
+.header li{
+	display: inline-block;
+	list-style: none;
+}
+.header li a{
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	padding: 14px 20px 0px 0px ;
+	line-height: 50px;
+	color: white;
+}
+.header li a i{
+	padding-right: 5px;
+}
+#icon{
+	color: aliceblue;
+	font-size: 26px;
+	padding-top: 10px;
+	cursor: pointer;
+	display: none;
+	float: right;
+	margin-right: 30px;
+	margin-left: 100px;
+}
+.b-1{
+	width: 100vw;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	background: #1D2222;
+}
+.b-1 img{
+	width: 500px;
+}
+.search{
+	width: 65vw;
+	height: 45px;
+	background: rgb(197, 198, 199);
+	margin: 50px auto 0px auto;
+	display: flex;
+	justify-content: center;
+	border-radius: 25px;
+	overflow: hidden;
+	animation: search 0.9s;
+}
+.search input{
+	font-family: 'Nunito', sans-serif;
+	width: 55vw;
+	background: none;
+	outline: none;
+	border: none;
+	float: left;
+	font-size: 16px;
+	color: rgb(35, 40, 49);
+}
+.search i{
+	font-size: 20px;
+	float: left;
+	padding: 12px 10px 0px 0px;
+	color: rgb(41, 46, 56);
+	
+}
+.gellrey{
+	width: 100vw;
+	height: auto;
+	display: flex;
+	background: #1F2125;
+	flex-direction: row;
+	justify-content: center;
+	flex-flow: wrap;
+	float: left;
+	margin-top: 50px;
+}
+.box{
+	width: 230px;
+	height: 200px;
+	background: rgb(33, 39, 51);
+	border-radius: 20px;
+	margin: 10px;
+	font-family: 'Nunito', sans-serif;
+	overflow: hidden;
+	text-align: center;
+	color: rgb(171, 176, 180);
+	transition: 0.2s;
+}
+.box img{
+	width: 230px;
+	height: 150px;
+}
+.box h4{
+	padding-top: 10px;
+}
+.box:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+	text-decoration: underline;
+}
+.quran-reciters{
+	padding: 30px 0px 0px 20px;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	animation: reciters 2s;
+}
+.r{
+	color: darkslategrey;
+	font-size: 34px;
+}
+.contaner{
+	width: 100vw;
+	height: 400px;
+	float: left;
+	margin-top: 150px;
+	background: #1F2125;
+}
+/* Page-2  (❁´◡`❁)*/
+.details{
+	width: 100vw;
+	height: auto;
+	font-family: 'Nunito', sans-serif;
+}
+.logo{
+	width: 130px;
+	height: 130px;
+	background: url(IMG/Logo/Mishari\ Rashid\ al-`Afasy.jpg);
+	background-size: 170px 130px;
+	border-radius: 50%;
+	border: 2px solid rgb(37, 36, 36);
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.par{
+	float: left;
+	width: 50vw;
+	font-family: 'Nunito', sans-serif;
+	padding: 10px 0px 90px 20px;
+	color: slategrey;
+}
+.har{
+	width: 50vw;
+	float: left;
+	padding: 50px 0px 0px 20px;
+	color: slategrey;
+}
+/* Page-2 Audio */
+.playlist{
+	width: 300px;
+    height: 100px;
+    padding: 10px 10px;
+	border-bottom : 4px solid rgb(37, 36, 36);
+	border-right : 4px solid rgb(37, 36, 36);
+	background: #1c2121 !important;
+	font-family: 'Nunito', sans-serif;
+	border-radius: 20px;
+    float: left;
+    margin-top: 20px !important;
+    margin-left: 50px;
+}
+#player-container #play-pause ,#play-pause2 ,#play-pause3,#play-pause4,#play-pause5,#play-pause6,#play-pause7,#play-pause8,#play-pause9,#play-pause10,#play-pause11,#play-pause12,#play-pause13,#play-pause14,#play-pause15,#play-pause16,#play-pause17,#play-pause18,#play-pause19,#play-pause20,#play-pause21,#play-pause22,#play-pause23,#play-pause24,#play-pause25,#play-pause26,#play-pause27,#play-pause28,#play-pause29,#play-pause30,#play-pause31,#play-pause32 ,#play-pause33,#play-pause34,#play-pause35,#play-pause36,#play-pause37,#play-pause38 ,#play-pause39,#play-pause40,#play-pause41,#play-pause42,#play-pause43,#play-pause44,#play-pause45,#play-pause46,#play-pause47,#play-pause48,#play-pause49,#play-pause50,#play-pause51,#play-pause52,#play-pause53,#play-pause54,#play-pause55,#play-pause56,#play-pause57,#play-pause58,#play-pause59,#play-pause60,#play-pause61 ,#play-pause62 ,#play-pause63,#play-pause64,#play-pause65,#play-pause66,#play-pause67,#play-pause68,#play-pause69,#play-pause70,#play-pause71,#play-pause72,#play-pause73,#play-pause74,#play-pause75,#play-pause76,#play-pause77,#play-pause78,#play-pause79,#play-pause80,#play-pause81,#play-pause82,#play-pause83,#play-pause84,#play-pause85,#play-pause86,#play-pause87,#play-pause88,#play-pause89,#play-pause90, #play-pause91 ,#play-pause92 ,#play-pause93,#play-pause94,#play-pause95,#play-pause96,#play-pause97,#play-pause98,#play-pause99,#play-pause100,#play-pause101,#play-pause102,#play-pause103,#play-pause104,#play-pause105,#play-pause106,#play-pause107,#play-pause108,#play-pause109,#play-pause110,#play-pause111,#play-pause112,#play-pause113,#play-pause114 {
+	cursor: pointer;
+    text-indent: -999999px;
+    height:50px;
+    margin-top: 20px;
+    margin-left: 230px;
+    position: absolute;
+    float: left;
+    width: 30px;
+    padding: 12px 18px;
+    z-index: 2;
+    background-repeat: no-repeat!important;
+    background-position:center;
+    background-size:55px;
+}
+.play ,.play2,.play3,.play4,.play5,.play6,.play7,.play8,.play9,.play10,.play11,.play12,.play13,.play14,.play15,.play16,.play17,.play18,.play19,.play20,.play21,.play22,.play23,.play24,.play25,.play26,.play27,.play28 ,.play29,.play30,  .play31 ,.play32,.play33,.play34,.play35,.play36,.play37,.play38,.play39,.play40,.play41,.play42,.play43,.play44,.play45,.play46,.play47,.play48,.play49,.play50,.play51,.play52,.play53,.play54,.play55,.play56,.play57,.play58 ,.play59,.play60,  .play61 ,.play62,.play63,.play64,.play65,.play66,.play67,.play68,.play69,.play70,.play71,.play72,.play73,.play74,.play75,.play76,.play77,.play78,.play79,.play80,.play81,.play82,.play83,.play84,.play85,.play86,.play87,.play88 ,.play89,.play90,  .play91 ,.play92,.play93,.play94,.play95,.play96,.play97,.play98,.play99,.play100,.play101,.play102,.play103,.play104,.play105,.play106,.play107,.play108,.play109,.play110,.play111,.play112,.play113,.play114{
+	background-image: url(IMG/data/play.png)!important;
+	filter: blur(1px);
+	z-index: 10;
+}
+.pause {
+	background-image: url(IMG/data/pause.png)!important;
+}
+.body-m{
+	width: 100vw;
+	height: auto;
+	display: flex !important; 
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+	background: #1F2125;
+	/* background: rgb(23, 27, 36); */
+    margin-top: 134px;
+    transition: 0.8s;
+	margin-left: 0px  !important;   
+}
+.space{
+	width: 100vw;
+	height: 350px;
+	/* background: violet; */
+	float: left;
+	margin-top: 100px;
+}
+/* Footer */
+.footer{
+	width: 100vw;
+	height: 350px;
+	background: #343A40;
+	float: left;
+	/* margin-top: 500px; */
+}
+.manu-footer{
+	width: 20vw;
+	height: 250px;
+	padding: 0px 0px 0px 20px;
+	font-family: 'Nunito', sans-serif;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-left: 2px solid rgb(252, 233, 233);
+}
+.manu-footer ul{
+	list-style: none;
+}
+.manu-footer li{
+	line-height: 65px;
+}
+.manu-footer li a{
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	color: rgb(139, 164, 185);
+}
+.detail-footer{
+	width: 30vw;
+	height: 300px;
+	float: left;
+	/* border-left: 2px solid rgb(252, 233, 233); */
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'Nunito', sans-serif;
+	color: rgb(150, 173, 194);
+}
+.manu-footer2{
+	width: 20vw;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	/* border-left: 2px solid rgb(252, 233, 233); */
+	padding: 0px 0px 0px 20px;
+}
+.manu-footer2 ul{
+	list-style: none;
+}
+.manu-footer2 li{
+	line-height: 30px;
+}
+.manu-footer2 li a{
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	color: rgb(139, 164, 185);
+}
+.manu-footer2 h4{
+	font-family: 'Nunito', sans-serif;
+	color: rgb(139, 164, 185);
+}
